@@ -13,8 +13,12 @@ const Projects = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {listProyek.map((proyek) => (
-            <div key={proyek.id} className="bg-zinc-800/80 rounded-2xl overflow-hidden border border-zinc-700 hover:border-blue-500 transition-all duration-300 group">
+          {listProyek.map((proyek, index) => (
+            <div 
+              key={proyek.id} 
+              data-aos-delay={index * 200} 
+              alt={proyek.nama} 
+              className="bg-zinc-800/80 rounded-2xl overflow-hidden border border-zinc-700 hover:border-blue-500 transition-all duration-300 group">
               <div className="relative overflow-hidden">
                 <img 
                   src={proyek.gambar} 
