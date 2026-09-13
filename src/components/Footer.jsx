@@ -12,11 +12,11 @@ const Footer = () => {
 
         <div className="flex space-x-6">
           {/* Ganti "#" dengan link GitHub Anda */}
-          <a href="#" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-white transition font-medium">
+          <a href="https://github.com/almarufh" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-white transition font-medium">
             GitHub
           </a>
           {/* Ganti "#" dengan link LinkedIn Anda */}
-          <a href="#" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-white transition font-medium">
+          <a href="https://www.linkedin.com/in/almarufhidayat" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-white transition font-medium">
             LinkedIn
           </a>
         </div>
