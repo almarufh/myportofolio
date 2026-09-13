@@ -9,5 +9,5 @@ export default defineConfig({
     tailwindcss(),
   ],
   // Menyesuaikan dengan nama repository GitHub Anda
-  base: '/myportofolio/',
+  // base: '/myportofolio/',
 })
