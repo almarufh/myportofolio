@@ -12,7 +12,7 @@ const Hero = () => {
           <h2 className="text-2xl md:text-3xl text-zinc-400 font-semibold mb-6">
             Fullstack Web Developer
           </h2>
-          <p className="text-zinc-400 mb-8 leading-relaxed max-w-lg text-lg">
+          <p className="text-zinc-400 mb-8 leading-relaxed max-w-lg text-lg order-2 md:order-1" data-aos="fade-right">
             Saya adalah pengembang perangkat lunak yang berfokus pada ekosistem JavaScript dan Golang. Berpengalaman membangun sistem otomatisasi transaksi level produksi sejak 2024.
           </p>
           
