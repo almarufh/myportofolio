@@ -2,7 +2,7 @@ name: Deploy static content to Pages
 
 on:
   push:
-    branches: ['main'] # Akan berjalan setiap kali ada push ke branch main
+    branches: ['main']
 
 permissions:
   contents: read
